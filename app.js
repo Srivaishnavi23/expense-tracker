@@ -1,5 +1,5 @@
 const express = require("express");
-const sequelize = require("./database");
+//const sequelize = require("./database");
 const productRoutes = require("./routes/products");
 const bodyParser = require("body-parser");
 const cors = require("cors");
