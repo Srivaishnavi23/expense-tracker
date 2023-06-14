@@ -24,7 +24,7 @@ exports.forgotPass = async (req, res, next) => {
       //if user not found then
       return res
         .status(404)
-        .json({ success: false, message: "User Not Fount " });
+        .json({ success: false, message: "User Not Found " });
     }
 
     // else create user pass reset link
