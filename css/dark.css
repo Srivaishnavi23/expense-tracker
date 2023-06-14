@@ -1,0 +1,35 @@
+body.dark {
+    background-color: #000000ff;
+    color: rgba(238, 238, 238, 1);
+  
+    transition: background 0.3s linear, color 0.3s linear;
+  }
+  body.dark .toggle-wrap label {
+    background-color: white;
+  }
+  
+  /* .toggle-wrap {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  } */
+  
+  .toggle-wrap label {
+    background-color: rgb(32, 32, 32);
+    width: 1rem;
+    padding: 1rem;
+    height: 1rem;
+    display: inline-block;
+    border-radius: 50%;
+  
+    user-select: none;
+    transition: background 0.3s linear;
+  }
+  .toggle-wrap input {
+    visibility: hidden;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
